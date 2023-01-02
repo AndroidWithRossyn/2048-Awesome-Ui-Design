@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_margin="10sp"
+    android:background="@drawable/round_gameview"
+    android:orientation="vertical">
+
+    <m2048.banrossyn.viewFor2048.SquareTableLayout
+        android:id="@+id/gameView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5sp"
+        android:background="#F5DEB3"
+        android:stretchColumns="*">
+
+        <TableRow
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+
+            <m2048.banrossyn.viewFor2048.SquareTextView
+                android:id="@+id/gametv_0"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="3sp"
+                android:background="@drawable/round_unit"
+                android:gravity="center"
+                android:text="@string/num"
+                android:textSize="25sp"
+                android:textStyle="bold" />
+
+            <m2048.banrossyn.viewFor2048.SquareTextView
+                android:id="@+id/gametv_1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="3sp"
+                android:background="@drawable/round_unit"
+                android:gravity="center"
+                android:text="@string/num"
+                android:textSize="25sp"
+                android:textStyle="bold" />
+
+            <m2048.banrossyn.viewFor2048.SquareTextView
+                android:id="@+id/gametv_2"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="3sp"
+                android:background="@drawable/round_unit"
+                android:gravity="center"
+                android:text="@string/num"
+                android:textSize="25sp"
+                android:textStyle="bold" />
+
+            <m2048.banrossyn.viewFor2048.SquareTextView
+                android:id="@+id/gametv_3"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="3sp"
+                android:background="@drawable/round_unit"
+                android:gravity="center"
+                android:text="@string/num"
+                android:textSize="25sp"
+                android:textStyle="bold" />
+        </TableRow>
+
+        <TableRow
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+
+            <m2048.banrossyn.viewFor2048.SquareTextView
+                android:id="@+id/gametv_4"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="3sp"
+                android:background="@drawable/round_unit"
+                android:gravity="center"
+                android:text="@string/num"
+                android:textSize="25sp"
+                android:textStyle="bold" />
+
+            <m2048.banrossyn.viewFor2048.SquareTextView
+                android:id="@+id/gametv_5"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="3sp"
+                android:background="@drawable/round_unit"
+                android:gravity="center"
+                android:text="@string/num"
+                android:textSize="25sp"
+                android:textStyle="bold" />
+
+            <m2048.banrossyn.viewFor2048.SquareTextView
+                android:id="@+id/gametv_6"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="3sp"
+                android:background="@drawable/round_unit"
+                android:gravity="center"
+                android:text="@string/num"
+                android:textSize="25sp"
+                android:textStyle="bold" />
+
+            <m2048.banrossyn.viewFor2048.SquareTextView
+                android:id="@+id/gametv_7"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="3sp"
+                android:background="@drawable/round_unit"
+                android:gravity="center"
+                android:text="@string/num"
+                android:textSize="25sp"
+                android:textStyle="bold" />
+        </TableRow>
+
+        <TableRow
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+
+            <m2048.banrossyn.viewFor2048.SquareTextView
+                android:id="@+id/gametv_8"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="3sp"
+                android:background="@drawable/round_unit"
+                android:gravity="center"
+                android:text="@string/num"
+                android:textSize="25sp"
+                android:textStyle="bold" />
+
+            <m2048.banrossyn.viewFor2048.SquareTextView
+                android:id="@+id/gametv_9"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="3sp"
+                android:background="@drawable/round_unit"
+                android:gravity="center"
+                android:text="@string/num"
+                android:textSize="25sp"
+                android:textStyle="bold" />
+
+            <m2048.banrossyn.viewFor2048.SquareTextView
+                android:id="@+id/gametv_10"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="3sp"
+                android:background="@drawable/round_unit"
+                android:gravity="center"
+                android:text="@string/num"
+                android:textSize="25sp"
+                android:textStyle="bold" />
+
+            <m2048.banrossyn.viewFor2048.SquareTextView
+                android:id="@+id/gametv_11"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="3sp"
+                android:background="@drawable/round_unit"
+                android:gravity="center"
+                android:text="@string/num"
+                android:textSize="25sp"
+                android:textStyle="bold" />
+        </TableRow>
+
+        <TableRow
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+
+            <m2048.banrossyn.viewFor2048.SquareTextView
+                android:id="@+id/gametv_12"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="3sp"
+                android:background="@drawable/round_unit"
+                android:gravity="center"
+                android:text="@string/num"
+                android:textSize="25sp"
+                android:textStyle="bold"
+
+                />
+
+            <m2048.banrossyn.viewFor2048.SquareTextView
+                android:id="@+id/gametv_13"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="3sp"
+                android:background="@drawable/round_unit"
+                android:gravity="center"
+                android:text="@string/num"
+                android:textSize="25sp"
+                android:textStyle="bold" />
+
+            <m2048.banrossyn.viewFor2048.SquareTextView
+                android:id="@+id/gametv_14"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="3sp"
+                android:background="@drawable/round_unit"
+                android:gravity="center"
+                android:text="@string/num"
+                android:textSize="25sp"
+                android:textStyle="bold"
+
+                />
+
+            <m2048.banrossyn.viewFor2048.SquareTextView
+                android:id="@+id/gametv_15"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="3sp"
+                android:background="@drawable/round_unit"
+                android:gravity="center"
+                android:text="@string/num"
+                android:textSize="25sp"
+                android:textStyle="bold" />
+        </TableRow>
+
+    </m2048.banrossyn.viewFor2048.SquareTableLayout>
+
+</LinearLayout>

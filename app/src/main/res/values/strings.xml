@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">l2048</string>
+
+    <string name="author"><a href="https://github.com/BanRossyn" target="_blank">Ban Rossyn</a></string>
+    <string name="github"><a href="https://github.com/BanRossyn" target="_blank">2048 Game</a></string>
+    <string name="Version">1.0</string>
+    <string name="achievement">Achievement</string>
+    <string name="score">score</string>
+    <string name="maxnumber">maxNumber</string>
+    <string name="un_ndo">Un\ndo?</string>
+    <string name="ok">OK</string>
+    <string name="maxnum">maxNum</string>
+    <string name="_2048">2048</string>
+    <string name="game">Game</string>
+    <string name="score_">Score:</string>
+    <string name="num_null">Null</string>
+    <string name="best">Best:</string>
+    <string name="game_over">Game Over</string>
+    <string name="you_get_null_scores">You get null scores!</string>
+    <string name="restart">restart</string>
+    <string name="cancel">cancel</string>
+    <string name="num">Num</string>
+</resources>
